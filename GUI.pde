@@ -1,6 +1,3 @@
-
-
-
 class GUI {
 
   boolean feedPressed;
@@ -21,9 +18,11 @@ class GUI {
       if (mousePressed==true) {
         buttonColor=color(0, 255, 0);
         feedPressed=true;
+        arduino.servoWrite(11,90);
       } else {
         buttonColor=color(255, 0, 0);
         feedPressed=false;
+        arduino.servoWrite(11,-90);
       }
     }
    
