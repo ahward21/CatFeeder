@@ -1,4 +1,4 @@
-class LDR{
+/*class LDR{
   
   LDR(){}
   
@@ -24,4 +24,4 @@ class LDR{
 
 
 
-} 
+}*/
