@@ -14,7 +14,7 @@ class GUI {
     
     feedPressed1=false;
     feedPressed2=false;
-    fill(255,0,0);
+    fill(0,255,0);
     circle(300, 700, 200);
     fill(255,0,0);
     circle(600, 700, 200);
